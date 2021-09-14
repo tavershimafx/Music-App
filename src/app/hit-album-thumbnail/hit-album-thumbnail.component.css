@@ -1,0 +1,47 @@
+.carousel-inner{
+    margin: 15px 30px;
+    height: 60vh;
+}
+
+img{
+    width: 60%;
+}
+
+h4{
+    color: #fff;
+    width: fit-content;
+    font-weight: 50px;
+}
+
+.fa-chevron-right{
+    padding-left: 20px;
+    font-weight: 50px;
+    color: rgb(243, 65, 65);
+}
+
+p{
+    font-weight: 50px;
+    color: rgb(243, 65, 65);
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.4s;
+}
+
+p:hover{
+    transform: scale(1.05);
+    margin-left: 5px;
+}
+
+.album-name{
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.featured-item-info{
+    display: flex;
+    margin-top: 10px;
+    background: transparent;
+    width: fit-content;
+    padding: 5px;
+}

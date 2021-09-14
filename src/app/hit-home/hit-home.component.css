@@ -1,0 +1,58 @@
+body{
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 9% 45%;
+    align-items: center;
+    background-color: black;
+    height: 65vh;
+}
+
+.home-content{
+    position: relative;
+    z-index: 4;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 900px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 95%;
+    align-items: center;
+    color: #eaedf0;
+    letter-spacing: 5px;
+}
+
+.hit{
+    color: rgb(255, 85, 255);
+    z-index: 4;
+}
+
+button{
+    padding: 10%;
+    width: 110%;
+    font-size: larger;
+    font-weight: 500;
+    background: transparent;
+    border-radius: 5px;
+    border: rgb(255, 4, 255) 2px solid;
+    color: #eaedf0;
+}
+
+button:hover{
+    background: rgb(255, 250, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    border: none;
+}
+
+.hero{
+    background-color: #fff;
+    color: black;
+}
+
+.btn{
+    background-color: rgb(177, 11, 11);
+    color: white;
+}

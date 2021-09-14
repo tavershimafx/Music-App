@@ -1,0 +1,18 @@
+<div class="playlist-content" *ngFor="let track of albumTracks">
+    <ul class="list-unstyled">
+        <li class="playlist-number">
+            <!-- song information -->
+            <div class="song-info">
+                <!-- song title -->
+                <h4>{{track.trackName}}</h4>
+                <p><strong>Type</strong>: {{track.type}} &nbsp;|&nbsp; <strong>Singer</strong>:</p>
+            </div>
+            <!-- music icon -->
+            <div class="music-icon">
+                <a href="#"><i class="fa fa-play"></i></a>
+                <a href="#"><i class="fa fa-pause"></i></a>
+            </div>
+            <div class="clearfix"></div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,12 @@
+.album-list{
+    background-color: rgb(12, 7, 7);
+}
+
+.albums{
+    position: relative;
+    z-index: 4;
+    padding-top: 7%;
+    padding-left: 5%;
+    color: #fff;
+    font-weight: lighter;
+}

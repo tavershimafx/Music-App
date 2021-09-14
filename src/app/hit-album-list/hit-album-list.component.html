@@ -1,0 +1,11 @@
+<div class="album-list">
+    <h3 class="albums">
+        Albums
+    </h3>
+    <hr>
+    <div class="row">
+        <div *ngFor = 'let album of albums' class="col-md-4">
+            <hit-album-thumbnail [albumThumbnail] = 'album'></hit-album-thumbnail>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+<div>
+    <div id="latestalbum" class="hero pad">
+        <div class="container">
+            <!-- hero content -->
+            <div class="hero-content ">
+                <!-- heading -->
+                <h3 class="theme-color">{{album.albumName}}</h3>
+                <hr>
+                <!-- paragraph -->
+                <p>We sing the best <strong class="theme-color">Songs</strong> and now we control the world best <strong class="theme-color">Music</strong>.</p>
+            </div>
+            <!-- hero play list -->
+            <div class="hero-playlist">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <!-- music album image -->
+                        <div class="figure">
+                            <!-- image -->
+                            <img class="img-responsive" [src]="album.img" alt="" />
+                            <!-- disk image -->
+                            <img class="img-responsive disk" src="../../assets/template/img/album/disk.png" alt="" />
+                        </div>
+                        <!-- album details -->
+                        <div class="album-details">
+                            <!-- title -->
+                            <h4>{{album.albumName}}</h4>
+                            <!-- composed by -->
+                            <h5>by {{album.artist}}</h5>
+                            <!-- paragraph -->
+                            <p>This Album is brought to you by <strong class="theme-color">HIT</strong> the best in music updates and album publicity.</p>
+                            <!-- button -->
+                            <a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp; Play Now</a>
+                            <a href="#" class="btn btn-lg btn-theme" id="playNowBtn" style="margin-left: 3px;"><i class="fa fa-download"></i>&nbsp; Download</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <!-- play list -->
+                        <tracks [albumTracks]="album.tracks"></tracks>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
